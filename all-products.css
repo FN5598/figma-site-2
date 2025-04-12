@@ -1,0 +1,114 @@
+.size-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 10px;
+}
+
+.size-buttons-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.size-buttons-text button {
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.header-all-products-leave-application a {
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #3C336C;
+    text-decoration: underline;
+    position: relative;
+    margin-left: 20px;
+}
+
+.header-all-products-leave-application a::before {
+    content: "";
+    background-image: url("photos/ruler.png");
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    left: -30px;
+    top: 0;
+    position: absolute;
+}
+
+.minimal-amount {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #3C336C;
+}
+
+.jacket-information {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+    margin-bottom: -200px;
+
+}
+
+.jacket-information-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.material, 
+.how-to-order, 
+.types-of-sewing, 
+.production-care {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.material p, 
+.how-to-order p, 
+.types-of-sewing p, 
+.production-care p {
+    color: rgb(61, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: double;
+    z-index: 100;   
+}
+
+.material p::before, 
+.how-to-order p::before, 
+.types-of-sewing p::before, 
+.production-care p::before {
+    content: "- ";
+    z-index: 100;
+}
+
+.material p:nth-child(1),
+.how-to-order p:nth-child(1), 
+.types-of-sewing p:nth-child(1), 
+.production-care p:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    z-index: 100;
+} 
+
+.jackcet-guy-image {
+    max-width: 800px;
+    max-height: 800px;
+    object-fit: contain;
+}
+
+.main-container-all-products {
+    margin-top: 150px;
+}
+

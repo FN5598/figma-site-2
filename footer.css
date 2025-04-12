@@ -1,0 +1,84 @@
+.partners-img-footer img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.partners-img-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.partners-footer h1 {
+    display: flex;
+    justify-content: start;
+}
+
+.partners-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-mail-number-img img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.footer-mail-number-img {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-mail-number {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    gap: 20px;
+}
+
+.footer-manager-support,
+.footer-information,
+.footer-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-manager-support {
+    max-width: 300px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.input-phone-number-container {
+    position: relative;
+}
+
+.input-phone-number-container::after {
+    content: "→";
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    padding: 0;
+    right: 80px;
+    top: 70%;
+    transform: translateY(-70%);
+    z-index: 1;
+}

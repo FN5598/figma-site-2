@@ -1,0 +1,315 @@
+@keyframes gradient {
+    
+    0% {
+        background-position: 0% 50%;
+    }
+
+    20% {
+        background-position: 20% 50%;
+    }
+
+    40% {
+        background-position: 40% 50%;
+    }
+
+    60% {
+        background-position: 60% 50%;
+    }
+
+    80% {
+        background-position: 80% 50%;
+    }
+
+    100%{
+        background-position: 100% 50%;
+    }
+}
+
+.header-container {
+    width: 100%;
+    height: 700px;
+    animation: gradient 5s  infinite linear ;
+    background: linear-gradient(45deg, #9796F0, #FBC7D4);
+    position: relative;
+}
+
+
+.header-top-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.header-phone-number-button {
+    font-family: Questerial, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: none;
+    background: #1FAB8A;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header-margin {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-direction: 1;
+}
+
+.header-search-bar {
+    background: none;
+    border: 3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 20px;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+}
+
+.header-site-nickname {
+    font-family: Cinzel;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition: color 0,2s;
+}
+
+.header-site-nickname:active {
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+}
+
+
+
+.header-language-button {
+    border: none;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.header-person-image {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.header-middle-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 70px;
+    padding-left: 70px;
+    background-color: #FAFBFD70;
+    margin-top: 20px;
+    max-height: 100px;
+    height: 100%;
+}
+
+.header-middle-navigation-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.header-middle-navigation-buttons a {
+    color: black;
+    font-size: 16px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 0 20px;
+    transition: all 0.2s;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 20px;
+}
+
+.header-middle-navigation-buttons a:hover {
+    background-color: black;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+}
+
+.header-middle-navigation-buttons a:hover::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 5px;
+    width: 80%;
+    bottom: -15px;
+    left: 10%;
+    right: 10%;
+    border-radius: 10px;
+}
+
+.header-middle-discount-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.header-middle-bags {
+    max-height: 100px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.header-middle-discount {
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3C336C;
+    letter-spacing: 2px;
+}
+
+.header-bottom-image {
+    width: 633px;
+    height: 1hv;
+    object-fit: cover;
+    align-items: bottom;
+}
+
+.all-products-header-bottom-text,
+.header-bottom-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 100%;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.all-products-header-bottom-text {
+    margin-top: 10px
+}
+
+.header-bottom-paragpraph {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.header-bottom-additional-info {
+    color: #272525;
+    font-size: 18px;
+}
+
+.header-bottom-container-all-products {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.header-bottom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-bottom-circles {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 50px;
+    text-align: center;
+    height: 100%;
+    margin-top: 150px;
+}
+
+.header-bottom-circles a {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 130px;
+    word-wrap: break-word;
+    position: relative;
+}
+
+
+.turbo::after {
+    content: '';
+    background-image: url('photos/pink-circle.png');
+    position: absolute;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 120px;
+    top: -120px;
+}
+
+.quality::after {
+    content: '';
+    background-image: url('photos/pink-circle.png');
+    position: absolute;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 120px;
+    top: -120px;
+}
+
+.manager::after {
+    content: '';
+    background-image: url('photos/pink-circle.png');
+    position: absolute;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 120px;
+    top: -120px;
+}
+
+.header-bottom-image-all-products {
+    width: 539px;
+    height: 492px;
+    object-fit: cover;
+    align-items: bottom;
+}
+
+.header-all-products-leave-application {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.order-button,
+.header-all-products-leave-application button {
+    background-color: #3C336C;
+    color: white;
+    padding: 15px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 30px;
+}
+
+.header-all-products-leave-application p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(72, 72, 72);
+}
+
